@@ -5,13 +5,13 @@
 }
 
 body {
-  background-image: url(images/neon-purple-curve-frame-template.jpg);
+  background-image: url(images/ColoredShapes1.svg);
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  background-repeat: no-repeat;
 }
 
+/* Header */
 h1 {
   font-family: "Satoshi";
   color: #03e8d8;
@@ -43,9 +43,8 @@ h1 {
 }
 
 .socials {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #fff;
-  margin-left: 1.5rem;
   transition: all 0.3s;
 }
 
@@ -53,15 +52,32 @@ h1 {
   text-shadow: 0px 0px 5px;
 }
 
+/* Navbar */
 .navi_links {
   font-family: "Satoshi";
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.87);
   transition: all 0.3s;
+  align-items: center;
 }
 
 .navi_links:hover {
   transform: scale(1.5);
   color: #fff;
   text-shadow: 0px 0px 5px;
+}
+
+/* Projects Section */
+h2 {
+  color: #784e8e;
+}
+
+.projects {
+  background-image: url(images/Colored\ ShapesProjects.svg);
+  font-family: "Satoshi";
+}
+
+.card-cover {
+  background-position: center;
+  background-size: cover;
 }
