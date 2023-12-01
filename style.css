@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(images/ColoredShapes1.svg);
+  background-image: url(images/ColoredShapes.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .hero_top {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hero_p {
@@ -69,15 +69,26 @@ h1 {
 
 /* Projects Section */
 h2 {
-  color: #784e8e;
+  color: #934abd;
 }
 
 .projects {
-  background-image: url(images/Colored\ ShapesProjects.svg);
+  background-image: url(images/ColoredShapesProjects1.svg);
   font-family: "Satoshi";
 }
 
 .card-cover {
   background-position: center;
   background-size: cover;
+}
+
+/* Contact Section */
+.contact_sec {
+  background-image: url(images/ColoredShapes.svg);
+}
+
+.contact_sec h4,
+h5 {
+  font-family: "Satoshi";
+  color: #03e8d8;
 }
