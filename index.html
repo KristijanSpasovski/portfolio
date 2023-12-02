@@ -25,8 +25,50 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <!-- Header -->
     <header
+      class="hero_top sticky-top d-flex justify-content-around flex-wrap justify-content-md-between py-3 mb-4"
+    >
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div
+            class="h_name d-flex flex-wrap fw-bold h4 col-1 col-md-2 mb-2 ms-5 mb-md-0"
+          >
+            <a href="#" class="nav-link px-2">&lt;portfolio&gt;</a>
+          </div>
+          <button
+            class="hamburger_menu navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  href="#project_sec"
+                  class="navi_links nav-link px-2 text- fw-bold mx-3"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#contacts"
+                  class="navi_links nav-link px-2 text- fw-bold mx-3"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header -->
+    <!-- <header
       class="hero_top sticky-top d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4"
     >
       <div class="h_name fw-bold h4 col-md-2 mb-2 ms-5 mb-md-0">
@@ -60,9 +102,9 @@
           ><i class="socials bi bi-linkedin"></i
         ></a>
       </div>
-    </header>
+    </header> -->
     <div class="row flex-lg-row-reverse align-items-center m-0 ms-5 g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
+      <div id="test" class="col-10 col-sm-12 col-lg-6">
         <img
           src="images/headshot_1.png"
           class="headshot img-fluid ms-5"
@@ -190,7 +232,7 @@
                 >https://github.com/KristijanSpasovski</a
               >
             </p>
-            <p class="fs-5 text">
+            <p class="fs-6 text">
               <a
                 class="nav-link navi-links"
                 href="https://www.linkedin.com/in/kristijan-spasovski-6b4a86295/"
