@@ -25,18 +25,19 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header
-      class="hero_top sticky-top d-flex justify-content-around flex-wrap justify-content-md-between py-3 mb-4"
-    >
-      <nav class="navbar navbar-expand-lg">
+    <!-- Header and Navbar -->
+    <header class="hero_top sticky-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light d-flex justify-content-between"
+      >
         <div class="container-fluid">
-          <div
-            class="h_name d-flex flex-wrap fw-bold h4 col-1 col-md-2 mb-2 ms-5 mb-md-0"
-          >
-            <a href="#" class="nav-link px-2">&lt;portfolio&gt;</a>
+          <div>
+            <a class="h_name fw-bold h4 col-md-2 mb-2 mb-md-0" href="#"
+              >&lt;portfolio&gt;</a
+            >
           </div>
           <button
-            class="hamburger_menu navbar-toggler"
+            class="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -44,65 +45,49 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navi-links navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+            >
               <li class="nav-item">
                 <a
+                  class="navi_links nav-link px-2 text- fw-bold"
+                  aria-current="page"
                   href="#project_sec"
-                  class="navi_links nav-link px-2 text- fw-bold mx-3"
                   >Projects</a
                 >
               </li>
               <li class="nav-item">
                 <a
+                  class="contact_name nav-link navi_links px-2 text- fw-bold"
                   href="#contacts"
-                  class="navi_links nav-link px-2 text- fw-bold mx-3"
                   >Contact</a
                 >
               </li>
             </ul>
+            <div class="col-md-1 text-end ms-2 d-flex">
+              <a
+                href="https://github.com/KristijanSpasovski"
+                class="nav-link px-2 text- fw-bold me-3"
+                ><i class="socials bi bi-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/kristijan-spasovski-6b4a86295/"
+                class="nav-link text- fw-bold"
+                ><i class="socials bi bi-linkedin"></i
+              ></a>
+            </div>
           </div>
         </div>
       </nav>
     </header>
-    <!-- Header -->
-    <!-- <header
-      class="hero_top sticky-top d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4"
-    >
-      <div class="h_name fw-bold h4 col-md-2 mb-2 ms-5 mb-md-0">
-        <a href="#" class="nav-link px-2">< portfolio ></a>
-      </div>
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li>
-          <a
-            href="#project_sec"
-            class="navi_links nav-link px-2 text- fw-bold mx-3"
-            >Projects</a
-          >
-        </li>
-        <li>
-          <a
-            href="#contacts"
-            class="navi_links nav-link px-2 text- fw-bold mx-3"
-            >Contact</a
-          >
-        </li>
-      </ul>
-      <div class="col-md-1 text-end me-5 ms-5 d-flex">
-        <a
-          href="https://github.com/KristijanSpasovski"
-          class="nav-link px-2 text- fw-bold me-3"
-          ><i class="socials bi bi-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/kristijan-spasovski-6b4a86295/"
-          class="nav-link text- fw-bold"
-          ><i class="socials bi bi-linkedin"></i
-        ></a>
-      </div>
-    </header> -->
     <div class="row flex-lg-row-reverse align-items-center m-0 ms-5 g-5 py-5">
       <div id="test" class="col-10 col-sm-12 col-lg-6">
         <img
@@ -251,5 +236,10 @@
         © 2023 Kristijan Spasovski
       </p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
