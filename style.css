@@ -175,4 +175,7 @@ h5 {
   .navi_links {
     margin: 0 auto;
   }
+  .navi_links:hover {
+    transform: none;
+  }
 }
