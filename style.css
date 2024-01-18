@@ -290,6 +290,7 @@ section {
 .about-sec p {
   color: black;
   font-size: large;
+  text-align: justify;
 }
 
 .about-containers {

@@ -48,6 +48,9 @@
   footer {
     height: 40vh;
   }
+  .menu-links a {
+    font-size: 1.2rem;
+  }
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -55,6 +58,9 @@
   .logo {
     font-size: 1.5rem;
     font-weight: 500;
+  }
+  .about-sec {
+    text-align: center;
   }
   article {
     font-size: 1rem;
