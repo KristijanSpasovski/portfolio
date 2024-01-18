@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="images/cion.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <div>
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+      <nav id="desktop-nav">
+        <div class="logo">Portfolio.</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Portfolio.</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img
+            class="hero-img"
+            src="images/headshotpic.png"
+            alt="profile picture"
+          />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Kristijan Spasovski</h1>
+          <p class="section__text__p2">Front-end Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./images/CV.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="images/linkedin.png"
+              alt=""
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/kristijan-spasovski-6b4a86295/'"
+            />
+            <img
+              src="images/github.png"
+              alt=""
+              class="icon"
+              onclick="location.href='https://github.com/KristijanSpasovski'"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="images/aboutpic.png" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="about-sec">
+              <p>
+                Hey, I'm Kristijan, a front-end developer passionate about
+                crafting user-friendly websites. Outside the coding realm, I'm
+                an animal lover, car enthusiast, and outdoor explorer. Whether
+                it's creating intuitive interfaces or exploring new trails, I
+                thrive on turning ideas into reality. Let's build something
+                amazing together! 🚀
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        src="images/icons8-double-down-50.png"
+        alt=""
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools, Version control</h2>
+            <div class="article-container">
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Webpack</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Npm</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        src="images/icons8-double-down-50.png"
+        alt=""
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/rpgGame.png" alt="" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">RPG Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KristijanSpasovski/Role-Playing-Game/tree/main'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kristijanspasovski.github.io/Role-Playing-Game/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/rockPaperScissors.png"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Rock Paper Scissors
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KristijanSpasovski/rock_paper_scissors'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kristijanspasovski.github.io/rock_paper_scissors/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/drumKit.png" alt="" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Drum Kit</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/KristijanSpasovski/Js_Drum_Kit'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kristijanspasovski.github.io/Js_Drum_Kit/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        src="images/icons8-double-down-50.png"
+        alt=""
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="images/icons8-email-48.png"
+            alt=""
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:example@gmail.com"
+              >spasovski.kristijan@icloud.com</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img src="images/linkedin.png" alt="" class="icon contact-icon" />
+          <p>
+            <a href="https://www.linkedin.com/in/kristijan-spasovski-6b4a86295/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Kristijan Spasovski. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
